@@ -1,0 +1,38 @@
+body{
+    background: linear-gradient(to bottom, red, orange, yellow, greenyellow, lightgreen, lightblue, purple);
+}
+#content01-page02 {
+    text-align: justify-all;
+}
+#content01-page03 {
+    text-align: justify-all;
+}
+#content01-page04 {
+    text-align: justify-all;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    float: left;
+    text-align: center;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+footer img {
+    margin: 0;
+    width: 4%;
+}
+footer p {
+    margin: 0;
+}
+@media only screen and (max-width: 600px) {
+    main
+    {
+        background-color: #D4808B;
+    }
+}
